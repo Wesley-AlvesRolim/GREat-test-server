@@ -60,12 +60,12 @@ public class User {
         this.rg = rg;
     }
 
-    public String getMontherName() {
-        return montherName;
+    public String getMotherName() {
+        return motherName;
     }
 
-    public void setMontherName(String montherName) {
-        this.montherName = montherName;
+    public void setMotherName(String motherName) {
+        this.motherName = motherName;
     }
 
     public Timestamp getBirthday() {
