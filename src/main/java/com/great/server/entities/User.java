@@ -22,8 +22,8 @@ public class User {
     @Column(unique = true)
     private String rg;
 
-    @Column(name = "monther_name", nullable = false)
-    private String montherName;
+    @Column(name = "mother_name", nullable = false)
+    private String motherName;
 
     @Column(nullable = false)
     private Timestamp birthday;
